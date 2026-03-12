@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+
+<!-- Perplexity Computer Attribution — SEO Meta Tags -->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NUMELA — Neuromarketing Using Machine Learning for Effective Monetization Analytics</title>
+<meta name="description" content="A proprietary methodology integrating machine learning with neuromarketing principles to predict customer behavior and optimize monetization strategies.">
+
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo-group">
+      <!-- Inline SVG Logo Mark -->
+      <svg class="header-logo" width="36" height="36" viewBox="0 0 100 100" fill="none" aria-label="NUMELA logo">
+        <circle cx="50" cy="50" r="46" stroke="currentColor" stroke-width="2" opacity="0.15"/>
+        <circle cx="50" cy="50" r="32" stroke="currentColor" stroke-width="1.5" opacity="0.1"/>
+        <!-- Neural nodes -->
+        <circle cx="50" cy="20" r="5" fill="var(--color-primary)" opacity="0.9"/>
+        <circle cx="25" cy="40" r="4" fill="var(--color-primary)" opacity="0.7"/>
+        <circle cx="75" cy="40" r="4" fill="var(--color-primary)" opacity="0.7"/>
+        <circle cx="50" cy="50" r="7" fill="var(--color-primary)"/>
+        <circle cx="30" cy="70" r="4" fill="var(--color-primary)" opacity="0.6"/>
+        <circle cx="70" cy="70" r="4" fill="var(--color-primary)" opacity="0.6"/>
+        <circle cx="50" cy="82" r="5" fill="var(--color-primary)" opacity="0.8"/>
+        <!-- Connections -->
+        <line x1="50" y1="20" x2="50" y2="50" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.4"/>
+        <line x1="25" y1="40" x2="50" y2="50" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.3"/>
+        <line x1="75" y1="40" x2="50" y2="50" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.3"/>
+        <line x1="50" y1="50" x2="30" y2="70" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.3"/>
+        <line x1="50" y1="50" x2="70" y2="70" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.3"/>
+        <line x1="50" y1="50" x2="50" y2="82" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.4"/>
+        <line x1="25" y1="40" x2="30" y2="70" stroke="var(--color-primary)" stroke-width="1" opacity="0.15"/>
+        <line x1="75" y1="40" x2="70" y2="70" stroke="var(--color-primary)" stroke-width="1" opacity="0.15"/>
+        <line x1="50" y1="20" x2="25" y2="40" stroke="var(--color-primary)" stroke-width="1" opacity="0.2"/>
+        <line x1="50" y1="20" x2="75" y2="40" stroke="var(--color-primary)" stroke-width="1" opacity="0.2"/>
+        <line x1="30" y1="70" x2="50" y2="82" stroke="var(--color-primary)" stroke-width="1" opacity="0.2"/>
+        <line x1="70" y1="70" x2="50" y2="82" stroke="var(--color-primary)" stroke-width="1" opacity="0.2"/>
+        <!-- Data pulse rings -->
+        <circle cx="50" cy="50" r="12" stroke="var(--color-primary)" stroke-width="0.8" opacity="0.15" stroke-dasharray="3 3"/>
+      </svg>
+      <span class="logo-text">NUMELA</span>
+    </div>
+
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#framework">Framework</a></li>
+        <li><a href="#ecommerce">E-Commerce Demo</a></li>
+        <li><a href="#retail">Retail Demo</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li>
+          <button class="theme-toggle" data-theme-toggle aria-label="Switch to light mode">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span>●</span> Proprietary Methodology
+    </div>
+
+    <!-- Large animated SVG logo -->
+    <svg class="hero-logo-svg" viewBox="0 0 200 200" fill="none" aria-label="NUMELA neural network logo mark">
+      <!-- Outer rotating ring -->
+      <circle cx="100" cy="100" r="94" stroke="var(--color-primary)" stroke-width="0.5" opacity="0.2" stroke-dasharray="8 4">
+        <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="60s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="100" cy="100" r="82" stroke="var(--color-primary)" stroke-width="0.5" opacity="0.15" stroke-dasharray="4 8">
+        <animateTransform attributeName="transform" type="rotate" from="360 100 100" to="0 100 100" dur="45s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Brain hemisphere outline -->
+      <path d="M100 30 Q140 30 155 60 Q170 90 155 120 Q140 150 100 170 Q60 150 45 120 Q30 90 45 60 Q60 30 100 30Z" stroke="var(--color-primary)" stroke-width="1" fill="none" opacity="0.12"/>
+
+      <!-- Neural network layer 1 (top) -->
+      <circle cx="100" cy="42" r="7" fill="var(--color-primary)" opacity="0.9">
+        <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="70" cy="55" r="5" fill="var(--color-primary)" opacity="0.6">
+        <animate attributeName="opacity" values="0.6;0.3;0.6" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="130" cy="55" r="5" fill="var(--color-primary)" opacity="0.6">
+        <animate attributeName="opacity" values="0.6;0.3;0.6" dur="3.5s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Neural network layer 2 (middle) -->
+      <circle cx="55" cy="85" r="5" fill="var(--color-primary)" opacity="0.5"/>
+      <circle cx="100" cy="100" r="10" fill="var(--color-primary)" opacity="1">
+        <animate attributeName="r" values="10;12;10" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="145" cy="85" r="5" fill="var(--color-primary)" opacity="0.5"/>
+
+      <!-- Neural network layer 3 (bottom) -->
+      <circle cx="65" cy="130" r="5" fill="var(--color-primary)" opacity="0.5"/>
+      <circle cx="100" cy="145" r="6" fill="var(--color-primary)" opacity="0.7">
+        <animate attributeName="opacity" values="0.7;0.4;0.7" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="135" cy="130" r="5" fill="var(--color-primary)" opacity="0.5"/>
+
+      <!-- Data flow connections -->
+      <g stroke="var(--color-primary)" stroke-width="1" opacity="0.25">
+        <!-- Top to middle -->
+        <line x1="100" y1="42" x2="55" y2="85"/>
+        <line x1="100" y1="42" x2="100" y2="100"/>
+        <line x1="100" y1="42" x2="145" y2="85"/>
+        <line x1="70" y1="55" x2="55" y2="85"/>
+        <line x1="70" y1="55" x2="100" y2="100"/>
+        <line x1="130" y1="55" x2="145" y2="85"/>
+        <line x1="130" y1="55" x2="100" y2="100"/>
+        <!-- Middle to bottom -->
+        <line x1="55" y1="85" x2="65" y2="130"/>
+        <line x1="55" y1="85" x2="100" y2="145"/>
+        <line x1="100" y1="100" x2="65" y2="130"/>
+        <line x1="100" y1="100" x2="100" y2="145"/>
+        <line x1="100" y1="100" x2="135" y2="130"/>
+        <line x1="145" y1="85" x2="135" y2="130"/>
+        <line x1="145" y1="85" x2="100" y2="145"/>
+      </g>
+
+      <!-- Data pulse dots traveling connections -->
+      <circle r="2" fill="var(--color-primary)" opacity="0.8">
+        <animateMotion dur="2s" repeatCount="indefinite" path="M100,42 L100,100"/>
+      </circle>
+      <circle r="2" fill="var(--color-primary)" opacity="0.6">
+        <animateMotion dur="2.5s" repeatCount="indefinite" path="M70,55 L100,100"/>
+      </circle>
+      <circle r="2" fill="var(--color-primary)" opacity="0.6">
+        <animateMotion dur="3s" repeatCount="indefinite" path="M100,100 L100,145"/>
+      </circle>
+
+      <!-- Center glow -->
+      <circle cx="100" cy="100" r="20" fill="var(--color-primary)" opacity="0.05">
+        <animate attributeName="r" values="20;28;20" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.05;0.02;0.05" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </svg>
+
+    <h1 class="hero-title">NUMELA</h1>
+    <p class="hero-subtitle">Neuromarketing Using Machine Learning for Effective Monetization Analytics</p>
+    <p class="hero-desc">A proprietary methodology integrating machine learning algorithms with neuromarketing principles to predict customer behavior, decode behavioral drivers, and optimize monetization strategies.</p>
+    <a href="#framework" class="btn-primary">
+      Explore the Framework
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17l9.2-9.2M7 7h10v10"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ============================================================
+     7-PHASE FRAMEWORK
+     ============================================================ -->
+<section id="framework">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-label">Methodology</span>
+      <h2 class="section-title">The 7-Phase Framework</h2>
+      <p class="section-desc">A systematic pipeline from data collection through continuous model improvement, integrating neuromarketing insights at every stage.</p>
+    </div>
+
+    <div class="framework-grid reveal-stagger" id="frameworkGrid">
+      <!-- Phase 1 -->
+      <div class="glass-card glass-card--glow phase-card" data-phase="1">
+        <div class="phase-header">
+          <div class="phase-number">1</div>
+          <div class="phase-info">
+            <h3>Data Collection &amp; Integration</h3>
+            <span class="phase-tag">Foundation Layer</span>
+          </div>
+        </div>
+        <div class="phase-details">
+          <p>Aggregates multi-source data including web analytics, behavioral signals, transaction logs, and demographic profiles. The integration pipeline normalizes heterogeneous datasets into a unified analytical schema for downstream processing.</p>
+        </div>
+      </div>
+
+      <!-- Phase 2 -->
+      <div class="glass-card glass-card--glow phase-card" data-phase="2">
+        <div class="phase-header">
+          <div class="phase-number">2</div>
+          <div class="phase-info">
+            <h3>Neuromarketing Analysis</h3>
+            <span class="phase-tag">Behavioral Layer</span>
+          </div>
+        </div>
+        <div class="phase-details">
+          <p>Applies neuromarketing principles to decode subconscious behavioral drivers. Analyzes cognitive biases, emotional triggers, and decision-making heuristics that influence purchasing behavior — transforming raw behavioral data into actionable psychological profiles.</p>
+        </div>
+      </div>
+
+      <!-- Phase 3 -->
+      <div class="glass-card glass-card--glow phase-card" data-phase="3">
+        <div class="phase-header">
+          <div class="phase-number">3</div>
+          <div class="phase-info">
+            <h3>ML Model Development</h3>
+            <span class="phase-tag">Intelligence Layer</span>
+          </div>
+        </div>
+        <div class="phase-details">
+          <p>Develops and trains machine learning models — including Random Forest classifiers and K-Means clustering — calibrated with neuromarketing features. Models are rigorously validated with cross-validation and hyperparameter tuning to ensure robust predictive performance.</p>
+        </div>
+      </div>
+
+      <!-- Phase 4 -->
+      <div class="glass-card glass-card--glow phase-card" data-phase="4">
+        <div class="phase-header">
+          <div class="phase-number">4</div>
+          <div class="phase-info">
+            <h3>Monetization Strategy Formulation</h3>
+            <span class="phase-tag">Strategy Layer</span>
+          </div>
+        </div>
+        <div class="phase-details">
+          <p>Translates model outputs into concrete revenue optimization strategies. Maps customer segments to personalized pricing, dynamic offers, cross-sell opportunities, and retention tactics — bridging the gap between prediction and business action.</p>
+        </div>
+      </div>
+
+      <!-- Phase 5 -->
+      <div class="glass-card glass-card--glow phase-card" data-phase="5">
+        <div class="phase-header">
+          <div class="phase-number">5</div>
+          <div class="phase-info">
+            <h3>Real-Time Optimization</h3>
+            <span class="phase-tag">Execution Layer</span>
+          </div>
+        </div>
+        <div class="phase-details">
+          <p>Implements real-time scoring and decision engines that adapt marketing actions in response to live user behavior. A/B testing frameworks continuously optimize offer timing, content personalization, and channel selection for maximum conversion.</p>
+        </div>
+      </div>
+
+      <!-- Phase 6 -->
+      <div class="glass-card glass-card--glow phase-card" data-phase="6">
+        <div class="phase-header">
+          <div class="phase-number">6</div>
+          <div class="phase-info">
+            <h3>Implementation &amp; Testing</h3>
+            <span class="phase-tag">Deployment Layer</span>
+          </div>
+        </div>
+        <div class="phase-details">
+          <p>Deploys optimized strategies into production environments with controlled rollouts. Multivariate testing isolates the impact of each NUMELA-driven intervention, establishing causal evidence of strategy effectiveness before full-scale deployment.</p>
+        </div>
+      </div>
+
+      <!-- Phase 7 -->
+      <div class="glass-card glass-card--glow phase-card" data-phase="7">
+        <div class="phase-header">
+          <div class="phase-number">7</div>
+          <div class="phase-info">
+            <h3>Performance Evaluation &amp; Continuous Improvement</h3>
+            <span class="phase-tag">Feedback Layer</span>
+          </div>
+        </div>
+        <div class="phase-details">
+          <p>Monitors KPIs, detects model drift, and triggers retraining cycles. A closed-loop feedback system ensures the framework evolves with changing market conditions and consumer behavior, maintaining prediction accuracy over time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     E-COMMERCE USE CASE
+     ============================================================ -->
+<section id="ecommerce">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-label">Use Case 1</span>
+      <h2 class="section-title">E-Commerce Purchase Prediction</h2>
+      <p class="section-desc">Random Forest classification applied to online shopping behavior data — predicting purchase intent with 89% accuracy and identifying the features that drive conversions.</p>
+    </div>
+
+    <div class="demo-section reveal">
+      <div class="demo-grid">
+        <!-- Feature Importance -->
+        <div class="demo-panel">
+          <h4><span class="icon-dot"></span> Feature Importance</h4>
+          <div class="chart-container">
+            <canvas id="featureChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Model Performance -->
+        <div class="demo-panel">
+          <h4><span class="icon-dot"></span> Model Performance</h4>
+          <div style="text-align:center;">
+            <svg class="accuracy-ring" viewBox="0 0 140 140">
+              <circle class="bg-ring" cx="70" cy="70" r="60"/>
+              <circle class="fg-ring" id="accuracyRing" cx="70" cy="70" r="60"/>
+              <text class="ring-text" x="70" y="70" id="accuracyText">0%</text>
+            </svg>
+            <div style="font-size:var(--text-sm); color:var(--color-text-muted); margin-bottom:var(--space-4);">Model Accuracy</div>
+          </div>
+
+          <!-- Confusion Matrix -->
+          <div style="font-size:var(--text-xs); color:var(--color-text-muted); text-align:center; margin-bottom:var(--space-2); font-weight:600;">Confusion Matrix</div>
+          <div class="confusion-matrix">
+            <div class="cm-label"></div>
+            <div class="cm-label">Pred: No</div>
+            <div class="cm-label">Pred: Yes</div>
+            <div class="cm-label" style="writing-mode:vertical-lr; transform:rotate(180deg);">Actual: No</div>
+            <div class="cm-cell cm-cell--tp">1975</div>
+            <div class="cm-cell cm-cell--fp">80</div>
+            <div class="cm-label" style="writing-mode:vertical-lr; transform:rotate(180deg);">Actual: Yes</div>
+            <div class="cm-cell cm-cell--fn">189</div>
+            <div class="cm-cell cm-cell--tn">222</div>
+          </div>
+
+          <!-- Metrics Table -->
+          <table class="metrics-table">
+            <thead>
+              <tr>
+                <th>Metric</th>
+                <th>No Purchase</th>
+                <th>Purchase</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Precision</td><td>0.91</td><td>0.74</td></tr>
+              <tr><td>Recall</td><td>0.96</td><td>0.54</td></tr>
+              <tr><td>F1 Score</td><td>0.94</td><td>0.62</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Purchase Intent Predictor -->
+        <div class="demo-panel">
+          <h4><span class="icon-dot"></span> Purchase Intent Predictor</h4>
+          <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-bottom:var(--space-4);">Adjust the feature values to simulate the Random Forest scoring function.</p>
+          <div class="predictor-form">
+            <div class="slider-group">
+              <div class="slider-label">
+                <span>PageValues</span>
+                <span class="slider-value" id="pvValue">10</span>
+              </div>
+              <input type="range" id="pvSlider" min="0" max="100" value="10" step="1">
+            </div>
+            <div class="slider-group">
+              <div class="slider-label">
+                <span>ProductRelated Duration</span>
+                <span class="slider-value" id="prdValue">500</span>
+              </div>
+              <input type="range" id="prdSlider" min="0" max="60000" value="500" step="100">
+            </div>
+            <div class="slider-group">
+              <div class="slider-label">
+                <span>Bounce Rates</span>
+                <span class="slider-value" id="brValue">0.02</span>
+              </div>
+              <input type="range" id="brSlider" min="0" max="200" value="20" step="1">
+            </div>
+            <div class="slider-group">
+              <div class="slider-label">
+                <span>Exit Rates</span>
+                <span class="slider-value" id="erValue">0.04</span>
+              </div>
+              <input type="range" id="erSlider" min="0" max="200" value="40" step="1">
+            </div>
+            <button class="btn-primary" id="predictBtn" style="width:100%;justify-content:center;">
+              Predict Purchase Intent
+            </button>
+          </div>
+          <div class="prediction-result" id="predictionResult">
+            <div class="prediction-label">—</div>
+            <div class="prediction-confidence">Adjust sliders and click Predict</div>
+          </div>
+        </div>
+
+        <!-- Monetization Recommendations -->
+        <div class="demo-panel">
+          <h4><span class="icon-dot"></span> NUMELA Monetization Recommendations</h4>
+          <div class="monetization-grid" style="margin-top:var(--space-4);">
+            <div class="monetization-card">
+              <h5>Strategy A — High Engagement</h5>
+              <p>Offer personalized discounts or product bundles to users spending over 1000s on product pages.</p>
+            </div>
+            <div class="monetization-card">
+              <h5>Strategy B — Weekend Shoppers</h5>
+              <p>Promote limited-time offers to engaged weekend shoppers to capitalize on impulse-driven browsing sessions.</p>
+            </div>
+            <div class="monetization-card">
+              <h5>Strategy C — Premium Conversion</h5>
+              <p>Introduce premium product recommendations for users with high page values to maximize average order value.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     RETAIL SEGMENTATION USE CASE
+     ============================================================ -->
+<section id="retail">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-label">Use Case 2</span>
+      <h2 class="section-title">Retail Customer Segmentation</h2>
+      <p class="section-desc">K-Means clustering identifies 5 distinct customer segments from purchasing behavior, enabling targeted monetization strategies for each profile.</p>
+    </div>
+
+    <div class="demo-section reveal">
+      <div class="demo-grid">
+        <!-- Scatter Chart -->
+        <div class="demo-panel">
+          <h4><span class="icon-dot"></span> Customer Cluster Visualization</h4>
+          <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-bottom:var(--space-4);">Annual Income vs. Spending Score — 5 segments identified by K-Means</p>
+          <div class="chart-container" style="height:320px;">
+            <canvas id="clusterChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Silhouette Score -->
+        <div class="demo-panel">
+          <h4><span class="icon-dot"></span> Optimal Cluster Selection</h4>
+          <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-bottom:var(--space-4);">Silhouette scores for k=2 through k=6 — k=5 selected as optimal</p>
+          <div class="chart-container">
+            <canvas id="silhouetteChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Segment Explorer -->
+        <div class="demo-panel demo-full">
+          <h4><span class="icon-dot"></span> Segment Explorer</h4>
+          <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin-bottom:var(--space-4);">Click a segment to see its NUMELA-generated profile and strategy recommendation.</p>
+
+          <div class="cluster-tabs" id="clusterTabs">
+            <button class="cluster-tab active" data-cluster="0">Budget Seniors</button>
+            <button class="cluster-tab" data-cluster="1">Young Enthusiasts</button>
+            <button class="cluster-tab" data-cluster="2">Premium Spenders <span class="badge-hv">High Value</span></button>
+            <button class="cluster-tab" data-cluster="3">High Income Savers</button>
+            <button class="cluster-tab" data-cluster="4">Moderate Mature</button>
+          </div>
+
+          <!-- Cluster 0 -->
+          <div class="cluster-profile active" data-cluster-profile="0">
+            <div class="cluster-stats">
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">46.25</div>
+                <div class="cluster-stat-label">Avg Age</div>
+              </div>
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">$26.75k</div>
+                <div class="cluster-stat-label">Avg Income</div>
+              </div>
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">18.35</div>
+                <div class="cluster-stat-label">Spending Score</div>
+              </div>
+            </div>
+            <div class="cluster-strategy">
+              <h5>NUMELA Strategy</h5>
+              <p>Focus on value-driven promotions and loyalty programs. Offer budget-friendly bundles and reward programs that incentivize repeat visits. Emphasize cost savings and essentials in marketing communications to resonate with price-sensitive behavior.</p>
+            </div>
+          </div>
+
+          <!-- Cluster 1 -->
+          <div class="cluster-profile" data-cluster-profile="1">
+            <div class="cluster-stats">
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">25.19</div>
+                <div class="cluster-stat-label">Avg Age</div>
+              </div>
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">$41.09k</div>
+                <div class="cluster-stat-label">Avg Income</div>
+              </div>
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">62.24</div>
+                <div class="cluster-stat-label">Spending Score</div>
+              </div>
+            </div>
+            <div class="cluster-strategy">
+              <h5>NUMELA Strategy</h5>
+              <p>Target with social media campaigns featuring trending products. Implement referral programs and influencer partnerships. This demographic responds to experiential marketing, limited drops, and mobile-first shopping experiences with social proof elements.</p>
+            </div>
+          </div>
+
+          <!-- Cluster 2 -->
+          <div class="cluster-profile" data-cluster-profile="2">
+            <div class="cluster-stats">
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">32.88</div>
+                <div class="cluster-stat-label">Avg Age</div>
+              </div>
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">$86.10k</div>
+                <div class="cluster-stat-label">Avg Income</div>
+              </div>
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">81.53</div>
+                <div class="cluster-stat-label">Spending Score</div>
+              </div>
+            </div>
+            <div class="cluster-strategy">
+              <h5>NUMELA Strategy — High Value Segment</h5>
+              <p>Deploy premium tier programs with exclusive perks, early access, and concierge-level personalization. This segment drives the highest revenue per customer — invest in white-glove service, curated product recommendations, and VIP loyalty tiers to maximize lifetime value.</p>
+            </div>
+          </div>
+
+          <!-- Cluster 3 -->
+          <div class="cluster-profile" data-cluster-profile="3">
+            <div class="cluster-stats">
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">39.87</div>
+                <div class="cluster-stat-label">Avg Age</div>
+              </div>
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">$86.10k</div>
+                <div class="cluster-stat-label">Avg Income</div>
+              </div>
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">19.36</div>
+                <div class="cluster-stat-label">Spending Score</div>
+              </div>
+            </div>
+            <div class="cluster-strategy">
+              <h5>NUMELA Strategy</h5>
+              <p>High-income savers need compelling reasons to spend. Target with quality-over-quantity messaging, investment-grade products, and financial incentive structures (cashback, price-match guarantees). Create urgency through scarcity-based neuromarketing triggers.</p>
+            </div>
+          </div>
+
+          <!-- Cluster 4 -->
+          <div class="cluster-profile" data-cluster-profile="4">
+            <div class="cluster-stats">
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">55.64</div>
+                <div class="cluster-stat-label">Avg Age</div>
+              </div>
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">$54.38k</div>
+                <div class="cluster-stat-label">Avg Income</div>
+              </div>
+              <div class="cluster-stat">
+                <div class="cluster-stat-value">48.85</div>
+                <div class="cluster-stat-label">Spending Score</div>
+              </div>
+            </div>
+            <div class="cluster-strategy">
+              <h5>NUMELA Strategy</h5>
+              <p>Engage with comfort-oriented product lines and seasonal campaigns. Email marketing with personalized recommendations performs strongly with this segment. Emphasize trust, product reliability, and familiar brand experiences in marketing communications.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     IMPACT & KPIs
+     ============================================================ -->
+<section id="impact">
+  <div class="container" style="text-align:center;">
+    <div class="reveal">
+      <span class="section-label">Results</span>
+      <h2 class="section-title" style="margin:0 auto var(--space-4);">Impact &amp; Key Performance Indicators</h2>
+      <p class="section-desc" style="margin:0 auto;">Measurable outcomes from NUMELA methodology application across use cases.</p>
+    </div>
+
+    <div class="kpi-grid reveal-stagger" id="kpiGrid">
+      <div class="glass-card kpi-card">
+        <div class="kpi-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <div class="kpi-value"><span class="counter" data-target="15">0</span>%+</div>
+        <div class="kpi-label">Productivity Improvement</div>
+      </div>
+
+      <div class="glass-card kpi-card">
+        <div class="kpi-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <div class="kpi-value"><span class="counter" data-target="20">0</span>%+</div>
+        <div class="kpi-label">Forecast Accuracy Gain</div>
+      </div>
+
+      <div class="glass-card kpi-card">
+        <div class="kpi-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <div class="kpi-value"><span class="counter" data-target="17">0</span>%+</div>
+        <div class="kpi-label">Customer Engagement Increase</div>
+      </div>
+
+      <div class="glass-card kpi-card">
+        <div class="kpi-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+        </div>
+        <div class="kpi-value"><span class="counter" data-target="89">0</span>%</div>
+        <div class="kpi-label">ML Model Accuracy</div>
+      </div>
+
+      <div class="glass-card kpi-card">
+        <div class="kpi-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        </div>
+        <div class="kpi-value" style="font-size:var(--text-lg);">Peer-Reviewed</div>
+        <div class="kpi-label">Published in Academic Journal</div>
+      </div>
+
+      <div class="glass-card kpi-card">
+        <div class="kpi-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
+        <div class="kpi-value" style="font-size:var(--text-lg);">IP Protected</div>
+        <div class="kpi-label">Registered in US &amp; Venezuela</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TECHNICAL STACK
+     ============================================================ -->
+<section id="tech">
+  <div class="container" style="text-align:center;">
+    <div class="reveal">
+      <span class="section-label">Technology</span>
+      <h2 class="section-title" style="margin:0 auto var(--space-4);">Technical Stack</h2>
+      <p class="section-desc" style="margin:0 auto;">Core technologies powering the NUMELA methodology.</p>
+    </div>
+
+    <div class="tech-grid reveal-stagger">
+      <div class="tech-badge">
+        <div class="tech-badge-icon">Py</div>
+        <span>Python</span>
+      </div>
+      <div class="tech-badge">
+        <div class="tech-badge-icon">Pd</div>
+        <span>Pandas</span>
+      </div>
+      <div class="tech-badge">
+        <div class="tech-badge-icon">Sk</div>
+        <span>Scikit-learn</span>
+      </div>
+      <div class="tech-badge">
+        <div class="tech-badge-icon">RF</div>
+        <span>Random Forest</span>
+      </div>
+      <div class="tech-badge">
+        <div class="tech-badge-icon">KM</div>
+        <span>K-Means</span>
+      </div>
+      <div class="tech-badge">
+        <div class="tech-badge-icon">Mp</div>
+        <span>Matplotlib</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer-text">NUMELA is a proprietary methodology by Jimmy Zabala</p>
+    <p class="footer-ip">Registered with intellectual property authorities in the United States and Venezuela</p>
+    <p class="footer-attribution">
+      <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+    </p>
+  </div>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
